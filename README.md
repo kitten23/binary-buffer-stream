@@ -4,6 +4,8 @@ Read binary data in a Buffer stream (e.g. Buffers form a Socket) when parsing pr
 # Examples
 
 ``` js
+const BufferStream = require('binary-buffer-stream')
+
 let buf = new BufferStream();
 let buffer1 = Buffer.from([0, 1])
 let buffer2 = Buffer.from([2, 3, 4])
