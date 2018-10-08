@@ -1,0 +1,12 @@
+{
+  "name": "binary-buffer-stream",
+  "version": "1.0.0",
+  "description": "node Buffer helper",
+  "main": "index.js",
+  "repository": "https://github.com/kitten23/buffer-stream.git",
+  "author": "yc",
+  "license": "MIT",
+  "dependencies": {
+    "ref": "^1.3.5"
+  }
+}
