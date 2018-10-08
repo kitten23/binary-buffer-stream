@@ -27,13 +27,13 @@ console.log(data)//7
 data = buf.readArray(5, 1)//5 bytes at index 1
 console.log(data)//Buffer(5) [1,2,3,4,5]
 
-buf.remove(1)//discard head bytes.
+buf.remove(1)//discard some head bytes.
 console.log(buf.size)//7
 
 data = buf.readArray(5, 1)
 console.log(data)//Buffer(5) [2,3,4,5,6]
 
 buffer2[0] = buffer2[1] = buffer2[2] = buffer3[0] = 0xff
-data = buf.readInt32LE(1)//32bit le int at index 1
+data = buf.readInt32LE(1)//32bit LE int at index 1
 console.log(data)//-1 (0xffffffff)
 ```
