@@ -1,5 +1,5 @@
-# buffer-stream
-read binary data in a Buffer stream (e.g. Buffers form a Socket) when parsing protocol. 
+# binary-buffer-stream
+Read binary data in a Buffer stream (e.g. Buffers form a Socket) when parsing protocol. 
 
 # Examples
 
