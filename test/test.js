@@ -1,4 +1,4 @@
-const BufferStream = require('../index');
+const BufferStream = require('../binary-buffer-stream');
 
 testBufferStream();
 

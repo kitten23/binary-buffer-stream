@@ -2,7 +2,7 @@
   "name": "binary-buffer-stream",
   "version": "1.0.1",
   "description": "Read binary data in a Buffer stream (e.g. Buffers form a Socket) when parsing protocol.",
-  "main": "index.js",
+  "main": "binary-buffer-stream.js",
   "repository": "https://github.com/kitten23/buffer-stream.git",
   "author": "yc",
   "license": "MIT",
